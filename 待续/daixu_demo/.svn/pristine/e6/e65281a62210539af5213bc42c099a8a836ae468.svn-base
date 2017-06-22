@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--配置四个角的弯曲程度-->
+    <corners android:radius="30dp"/>
+    <!--配置背景颜色-->
+    <solid android:color="@color/color_translucent"/>
+</shape>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\TouchGallery\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\TouchGallery\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyApplication\\TouchGallery\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\no_photo.png",
+        "source": "D:\\AndroidStudioProjects\\MyApplication\\TouchGallery\\src\\main\\res\\drawable-ldpi\\no_photo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyApplication\\TouchGallery\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "D:\\AndroidStudioProjects\\MyApplication\\TouchGallery\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\TouchGallery\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\no_photo.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\TouchGallery\\src\\main\\res\\drawable-ldpi\\no_photo.png"
+    }
+]

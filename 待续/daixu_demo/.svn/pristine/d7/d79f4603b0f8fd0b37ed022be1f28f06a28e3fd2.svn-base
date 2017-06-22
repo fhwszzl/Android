@@ -1,0 +1,346 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_face.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\RelyBox\\unspecified\\res\\layout\\chat_item_face.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\item_photo_wall.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PhotoWall\\unspecified\\res\\layout\\item_photo_wall.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photopreview.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PictureViewer\\unspecified\\res\\layout\\activity_photopreview.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\photo_album.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PhotoWall\\unspecified\\res\\layout\\photo_album.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\main_gridview_item.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PhotoWall\\unspecified\\res\\layout\\main_gridview_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\discovery_button.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\discovery_button.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\view_adv_header.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\view_adv_header.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\view_photopreview.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PictureViewer\\unspecified\\res\\layout\\view_photopreview.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_picture.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\activity_show_picture.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\emojicon_grid.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.rockerhieu.emojicon\\library\\1.3.1\\res\\layout\\emojicon_grid.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\layout_album.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PictureViewer\\unspecified\\res\\layout\\layout_album.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\ptrrv_root_view.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\homhomlin.lib\\ptrrv-library\\1.3.1\\res\\layout\\ptrrv_root_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\photo_wall.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PhotoWall\\unspecified\\res\\layout\\photo_wall.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\TouchGallery\\unspecified\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\view_camera.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PictureViewer\\unspecified\\res\\layout\\view_camera.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\chat_frag_face.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\RelyBox\\unspecified\\res\\layout\\chat_frag_face.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_emoji.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\RelyBox\\unspecified\\res\\layout\\chat_item_emoji.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_menu.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\RelyBox\\unspecified\\res\\layout\\chat_item_menu.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\activity_crop_picture.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PhotoWall\\unspecified\\res\\layout\\activity_crop_picture.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\photo_album_lv_item.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PhotoWall\\unspecified\\res\\layout\\photo_album_lv_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_personalcenter.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\fragment_personalcenter.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\layout_photoitem.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PictureViewer\\unspecified\\res\\layout\\layout_photoitem.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\listview_topic.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\listview_topic.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\chat_frame.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\chat_frame.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\comm_topbar_ll.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PhotoWall\\unspecified\\res\\layout\\comm_topbar_ll.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\free_article_tool_box.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\RelyBox\\unspecified\\res\\layout\\free_article_tool_box.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\write_article_tool_box.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\RelyBox\\unspecified\\res\\layout\\write_article_tool_box.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\view_empty.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\view_empty.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_discovery.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\fragment_discovery.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_choose_picture.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PhotoWall\\unspecified\\res\\layout\\dialog_choose_picture.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\item_photo_wall_checkbox.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PhotoWall\\unspecified\\res\\layout\\item_photo_wall_checkbox.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_message.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\fragment_message.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_choose_photo.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\dialog_choose_photo.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\activity_article.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\activity_article.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\load_anim.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\load_anim.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\ReplyBox\\unspecified\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\activity_remark.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\activity_remark.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photoselector.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\PictureViewer\\unspecified\\res\\layout\\activity_photoselector.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_compete_relay_article.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\fragment_compete_relay_article.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\chat_tool_box.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\RelyBox\\unspecified\\res\\layout\\chat_tool_box.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_listview_article.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\fragment_listview_article.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_free_article.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\fragment_free_article.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\emojicon_item.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.rockerhieu.emojicon\\library\\1.3.1\\res\\layout\\emojicon_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\emojicons.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.rockerhieu.emojicon\\library\\1.3.1\\res\\layout\\emojicons.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_personal_article.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\fragment_personal_article.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_homepage.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\fragment_homepage.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\activity_write_article.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\activity_write_article.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\layout\\listview_article_brief.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\src\\main\\res\\layout\\listview_article_brief.xml"
+    }
+]

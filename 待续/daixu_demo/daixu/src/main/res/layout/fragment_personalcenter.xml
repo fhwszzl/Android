@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main_gray">
+
+    <!--  个人资料模块  -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/percenter_perdata_bg">
+
+        <!--  设置  -->
+        <ImageView
+            android:id="@+id/percenter_setting_iv"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="6dp"
+            android:src="@mipmap/icon_percenter_setting"/>
+
+        <!--  头像  -->
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/percenter_user_image"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            fresco:placeholderImage="@color/yellow"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:roundAsCircle="false"
+            fresco:roundedCornerRadius="45dp"/>
+
+        <!--  用户昵称  -->
+        <TextView
+            android:id="@+id/percenter_username_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="bottom"
+            android:textSize="19sp"
+            android:textColor="#303233"
+            tools:text="漫步微笑的雨"
+            android:layout_below="@+id/percenter_user_image"
+            android:layout_centerHorizontal="true" />
+
+        <!--   用户等级  -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="3dp"
+            android:layout_alignBottom="@+id/percenter_username_tv"
+            android:layout_toEndOf="@+id/percenter_username_tv"
+            android:background="@drawable/bg_percenter_level">
+
+            <!--  Lv:  -->
+            <TextView
+                android:id="@+id/level_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fefefe"
+                android:textSize="12sp"
+                tools:text="Lv:"/>
+            <!--  数字 -->
+            <TextView
+                android:id="@+id/level_num_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fefefe"
+                android:textSize="12sp"
+                tools:text="17" />
+        </LinearLayout>
+
+        <!--   简介  -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/percenter_username_tv"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/percenter_profile_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:text="简介："
+                android:textSize="16sp"
+                android:textColor="#949394"/>
+
+            <TextView
+                android:id="@+id/percenter_profileconetent_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="36dp"
+                android:textSize="16sp"
+                android:textColor="#949394"
+                tools:text="孤老的人生只有文字，我在文字里寻觅同样孤独的你。"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

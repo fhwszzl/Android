@@ -1,0 +1,186 @@
+package com.maikefengchao.daixu.UI.Activity;
+
+import android.content.Intent;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.RadioButton;
+import android.widget.RelativeLayout;
+
+import com.chinark.apppickimagev3.utils.ScreenUtils;
+import com.maikefengchao.daixu.R;
+import com.maikefengchao.daixu.UI.Fragment.DiscoveryFragment;
+import com.maikefengchao.daixu.UI.Fragment.HomePageFragment;
+import com.maikefengchao.daixu.UI.Fragment.MessageFragment;
+import com.maikefengchao.daixu.UI.Fragment.PersonalCenterFragment;
+import com.nineoldandroids.animation.ValueAnimator;
+
+public class MainActivity extends BaseActivity{
+    private static final String TAG = "MainActivity";
+    //四个Fragment
+    private HomePageFragment mHomePageFragment;
+    private MessageFragment mMessageFragment;
+    private DiscoveryFragment mDiscoveryFragment;
+    private PersonalCenterFragment mPersonalCenterFragment;
+    private FragmentManager mFragmentManager;
+//    private LinearLayout mLinearBottomMenu;
+    private RelativeLayout mRLBottomMenu;
+    //切换按钮
+    private RadioButton mRBHomePage;
+    private RadioButton mRBDiscovery;
+    private RadioButton mRBMessage;
+    private RadioButton mRBPersonalCenter;
+    //创建文章按钮
+    private ImageButton mBtnWriteArticle;
+    //当前上一个的Fragment
+    private Fragment mLastFragment;
+    //菜单隐藏配置
+    public static int MENU_REFRESH = 0;
+    public static int MENU_LOADING = 1;
+
+    @Override
+    protected void initView(Bundle saveInstanceState) {
+        setContentView(R.layout.activity_main);
+        mRLBottomMenu = getViewById(R.id.main_RL_bottomMenu);
+        //初始化Fragment
+        mFragmentManager = getSupportFragmentManager();
+        //解决以外终止，重新加载Fragment时，出现重新现象
+        if (saveInstanceState != null){
+            mHomePageFragment = (HomePageFragment) mFragmentManager.findFragmentByTag(HomePageFragment.FRAGMENT_TAG);
+            mMessageFragment = (MessageFragment) mFragmentManager.findFragmentByTag(MessageFragment.FRAGMENT_TAG);
+            mDiscoveryFragment = (DiscoveryFragment) mFragmentManager.findFragmentByTag(DiscoveryFragment.FRAGMENT_TAG);
+            mPersonalCenterFragment = (PersonalCenterFragment) mFragmentManager.findFragmentByTag(PersonalCenterFragment.FRAGMENT_TAG);
+        }
+        else {
+            mHomePageFragment = new HomePageFragment();
+            mMessageFragment = new MessageFragment();
+            mDiscoveryFragment = new DiscoveryFragment();
+            mPersonalCenterFragment = new PersonalCenterFragment();
+        }
+        //初始化底部菜单栏
+        initBottomMenu();
+    }
+
+    //利用代码初始化底部菜单栏
+    private void initBottomMenu(){
+        mRBHomePage = getViewById(R.id.bottomMenu_rb_homepage);
+        mRBDiscovery = getViewById(R.id.bottomMenu_rb_discovery);
+        mRBMessage = getViewById(R.id.bottomMenu_rb_message);
+        mRBPersonalCenter = getViewById(R.id.bottomMenu_rb_personalCenter);
+        mBtnWriteArticle = getViewById(R.id.bottomMenu_btn_writeArticle);
+
+        mRBHomePage.setOnClickListener(this);
+        mRBDiscovery.setOnClickListener(this);
+        mRBMessage.setOnClickListener(this);
+        mRBPersonalCenter.setOnClickListener(this);
+    }
+
+    @Override
+    protected void setListener() {
+//        当HomePageFragment上下滑动的时候，隐藏菜单栏
+        mHomePageFragment.setHomePageFragmentListener(new HomePageFragment.OnMenuAnimListener() {
+            @Override
+            public void menuAnim(int flag) {
+                /*隐藏*/
+                if (flag == MENU_LOADING){
+                    ValueAnimator animator = ValueAnimator.ofFloat(mRLBottomMenu.getTranslationY(),mRLBottomMenu.getHeight());
+                    animator.setDuration(500);
+                    animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                        @Override
+                        public void onAnimationUpdate(ValueAnimator animation) {
+                            float value =(float) animation.getAnimatedValue();
+                            mRLBottomMenu.setTranslationY(value);
+                        }
+                    });
+                    animator.start();
+                }
+                /*显示*/
+                else if(flag == MENU_REFRESH){
+                    ValueAnimator animator = ValueAnimator.ofFloat(mRLBottomMenu.getTranslationY(),0);
+                    animator.setDuration(500);
+                    animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                        @Override
+                        public void onAnimationUpdate(ValueAnimator animation) {
+                            float value =(float) animation.getAnimatedValue();
+                            mRLBottomMenu.setTranslationY(value);
+                        }
+                    });
+                    animator.start();
+                }
+            }
+        });
+        //跳转到WriteArticleActivity
+        mBtnWriteArticle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,WriteArticleActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+    @Override
+    protected void processLogic(Bundle saveInstanceState) {
+        //初始化单位转换工具
+        ScreenUtils.initScreen(this);
+        //初始化HomePageFragment
+        showFragment();
+    }
+
+    //初始展示首页的Fragment
+    private void showFragment(){
+        FragmentTransaction ft = mFragmentManager.beginTransaction();
+        ft.add(R.id.main_frame,mHomePageFragment);
+        mLastFragment = mHomePageFragment;
+        ft.commit();
+    }
+
+    /**
+     * 该方法未完成：当Fragment切换时，按钮跟着切换
+     */
+    //切换Fragment
+    private void showNextFragment(FragmentTransaction ft,Fragment nextFragment,String tag){
+        //点击相同的按钮，不执行
+        if (mLastFragment == nextFragment)
+            return;
+        //切换Fragment
+        if(!nextFragment.isAdded()){
+            ft.add(R.id.main_frame,nextFragment,tag);
+        }
+        else{
+            ft.show(nextFragment);
+        }
+        ft.hide(mLastFragment);
+        mLastFragment = nextFragment;
+    }
+
+    //处理各个点击事件
+    @Override
+    public void onClick(View v) {
+        FragmentTransaction ft = mFragmentManager.beginTransaction();
+        switch (v.getId()){
+            case R.id.bottomMenu_rb_homepage:
+                showNextFragment(ft,mHomePageFragment,HomePageFragment.FRAGMENT_TAG);
+                break;
+            case R.id.bottomMenu_rb_message:
+                showNextFragment(ft,mMessageFragment,MessageFragment.FRAGMENT_TAG);
+                break;
+            case R.id.bottomMenu_rb_discovery:
+                showNextFragment(ft,mDiscoveryFragment,DiscoveryFragment.FRAGMENT_TAG);
+                break;
+            case R.id.bottomMenu_rb_personalCenter:
+                showNextFragment(ft,mPersonalCenterFragment,PersonalCenterFragment.FRAGMENT_TAG);
+                break;
+        }
+        ft.commit();
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+    }
+
+}

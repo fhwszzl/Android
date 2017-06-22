@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/homePage_linear_title"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/theme_blue"
+        android:gravity="center_horizontal|center_vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:text="待 叙"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!--   TAB标签  -->
+    <LinearLayout
+    android:id="@+id/homepage_tab_ll"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center_vertical"
+    android:background="@color/white">
+
+    <TextView
+    android:id="@+id/homepage_tab_cjjl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_weight="1"
+    android:text="常见接龙"
+    android:textSize="16sp"
+    android:textColor="@color/theme_blue"/>
+
+    <TextView
+    android:id="@+id/homepage_tab_gsx"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_weight="1"
+    android:text="故事线"
+    android:textSize="16sp"
+    android:textColor="@color/theme_blue"/>
+    </LinearLayout>
+
+    <!--   recyclerview显示区域   -->
+    <android.support.v4.view.ViewPager
+    android:id="@+id/main_viewpager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

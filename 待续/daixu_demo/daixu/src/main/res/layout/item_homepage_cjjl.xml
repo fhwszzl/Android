@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    app:cardBackgroundColor="#FAFAFA" app:cardCornerRadius="3dp"
+    android:layout_marginLeft="13dp" android:layout_marginRight="13dp" android:layout_marginTop="10dp"
+    android:clickable="true" android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--  标题 -->
+        <TextView
+            android:id="@+id/cjjl_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            tools:text="从你的全世界路过"
+            android:textSize="15sp"
+            android:textColor="@color/item_title_black"
+            android:maxEms="7"
+            android:ellipsize="end"
+            android:lines="1"/>
+
+        <!--  封面  -->
+        <ImageView
+            android:id="@+id/cjjl_cover_iv"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/cjjl_title_tv"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            tools:src="@mipmap/person"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/cjjl_content_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/cjjl_cover_iv"
+            tools:text="从你的全世界路过，希望有一个如你一般，如山间的清风，如城市的朝阳，只要最后是你就好，从你的全世界路过故事的开头总是这样" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main_gray"
+    tools:context=".UI.Activity.MainActivity">
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <!--   底栏菜单  -->
+    <RelativeLayout
+        android:id="@+id/main_RL_bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/icon_bottommenu_bg">
+
+    <RadioGroup
+        android:id="@+id/main_linear_bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_tools_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <!--  首页 -->
+        <RadioButton
+            style="@style/bottomMenu_radioButton"
+            android:id="@+id/bottomMenu_rb_homepage"
+            android:checked="true"
+            android:drawableTop="@drawable/icon_btn_homepage"/>
+        <!--  发现页 -->
+        <RadioButton
+            style="@style/bottomMenu_radioButton"
+            android:id="@+id/bottomMenu_rb_discovery"
+            android:drawableTop="@drawable/icon_btn_discovery"
+            android:checked="false" />
+        <!--  发布按钮 -->
+        <ImageButton
+            android:id="@+id/bottomMenu_btn_writeArticle"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="发表文章"
+            android:background="@mipmap/icon_release" />
+        <!--  消息页 -->
+        <RadioButton
+            style="@style/bottomMenu_radioButton"
+            android:id="@+id/bottomMenu_rb_message"
+            android:drawableTop="@drawable/icon_btn_message"/>
+        <!--  个人中心 -->
+        <RadioButton
+            style="@style/bottomMenu_radioButton"
+            android:id="@+id/bottomMenu_rb_personalCenter"
+            android:drawableTop="@drawable/icon_btn_percenter"/>
+    </RadioGroup>
+    </RelativeLayout>
+</RelativeLayout>

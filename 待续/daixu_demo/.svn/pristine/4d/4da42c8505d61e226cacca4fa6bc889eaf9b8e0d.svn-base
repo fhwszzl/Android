@@ -1,0 +1,266 @@
+package com.maikefengchao.daixu.UI.Fragment;
+
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.TextView;
+
+import com.lhh.ptrrv.library.PullToRefreshRecyclerView;
+import com.maikefengchao.daixu.Adatper.AdvAdapter;
+import com.maikefengchao.daixu.Adatper.BaseRecyclerAdapter;
+import com.maikefengchao.daixu.Bean.ArticleBrief;
+import com.maikefengchao.daixu.R;
+import com.maikefengchao.daixu.UI.Activity.WriteArticleActivity;
+import com.maikefengchao.daixu.Utils.DividerItemDecoration;
+import com.maikefengchao.daixu.View.DemoLoadMoreView;
+import com.yyydjk.library.BannerLayout;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import rx.Observer;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.schedulers.Schedulers;
+
+/**
+ * Created by PC on 2016/5/14.
+ */
+public class DiscoveryFragment extends BaseRecyclerFragment implements BannerLayout.OnBannerItemClickListener,View.OnClickListener {
+    public static final String FRAGMENT_TAG = "DiscoveryFragment";
+    private PullToRefreshRecyclerView mRecyclerView;
+    private BannerLayout mBannerLayout;
+    private List<String> mBannerUrlItems;
+    private ImageButton mIBGame;
+    private ImageButton mIBFinishBook;
+    private ImageButton mIBRanking;
+    private ImageButton mIBShop;
+    private AdvAdapter mAdvAdapter;
+
+    @Override
+    protected void initCommonView(Bundle savedInstanceState) {
+        setContentView(R.layout.fragment_discovery);
+    }
+
+    @Override
+    protected PullToRefreshRecyclerView initRecyclerView() {
+        mRecyclerView = getViewById(R.id.recyclerView_refresh);
+        hasEmptyView(false);
+        setRecyclerHeader();
+        testAdapter();
+        return mRecyclerView;
+    }
+
+    @Override
+    protected void initListener() {
+        mBannerLayout.setOnBannerItemClickListener(this);
+        mAdvAdapter.setOnRecyclerViewItemListener(new BaseRecyclerAdapter.OnRecyclerViewItemListener<String>() {
+            @Override
+            public void onItemClick(View view, String data) {
+                Log.d(TAG,data);
+                Intent intent = new Intent(getActivity(), WriteArticleActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+    @Override
+    protected void processRecyclerLogic() {
+        //设置上划刷新时候 刷新动画的高度
+        this.setFooterHeight((int) getResources().getDimension(R.dimen.bottom_tools_height)+100);
+    }
+
+    @Override
+    protected void firstRecyclerLoadData() {
+        //调用刷新的动画
+        mRecyclerView.post(new Runnable() {
+            @Override
+            public void run() {
+                mRecyclerView.setRefreshing(true);
+            }
+        });
+
+        //手动刷新数据
+        if(mHttpConnection.IsNetAvailable(mContext)){
+            //加载
+            new AsyncTask<Void,Void,Void>(){
+                @Override
+                protected Void doInBackground(Void... params) {
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    return null;
+                }
+
+                @Override
+                protected void onPostExecute(Void aVoid) {
+                    super.onPostExecute(aVoid);
+                    ArrayList<String> strings = new ArrayList<>();
+                    for(int i=0; i<20; ++i){
+                        strings.add("我很强"+i);
+                    }
+                    mAdvAdapter.refreshItems(strings);
+                    //关闭刷新动画
+                    mRecyclerView.setRefreshing(false);
+                    //每次调用一遍才能够加载更多
+                    mRecyclerView.onFinishLoading(true, false);
+                }
+            }.execute();
+        }
+        else {
+            //从数据库中获取
+        }
+    }
+
+    @Override
+    protected void refreshData() {
+        new AsyncTask<Void,Void,Void>(){
+            @Override
+            protected Void doInBackground(Void... params) {
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                return null;
+            }
+
+            @Override
+            protected void onPostExecute(Void aVoid) {
+                super.onPostExecute(aVoid);
+                ArrayList<String> strings = new ArrayList<>();
+                for(int i=0; i<20; ++i){
+                    strings.add("我很强"+i);
+                }
+                mAdvAdapter.refreshItems(strings);
+                mRecyclerView.setOnRefreshComplete();
+                mRecyclerView.onFinishLoading(true, false);
+            }
+        }.execute();
+    }
+
+    @Override
+    protected void loadMoreData() {
+        new AsyncTask<Void,Void,Void>(){
+            @Override
+            protected Void doInBackground(Void... params) {
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                return null;
+            }
+
+            @Override
+            protected void onPostExecute(Void aVoid) {
+                super.onPostExecute(aVoid);
+                ArrayList<String> strings = new ArrayList<>();
+                for(int i=0; i<10; ++i){
+                    strings.add("我很强"+i);
+                }
+                mAdvAdapter.addItems(strings);
+                mRecyclerView.onFinishLoading(true,false);
+            }
+        }.execute();
+    }
+
+    /**
+     *
+     * 如果hasEmptyView()设置为false 就可以不写
+     */
+    @Override
+    public void emptyViewReloadData() {
+
+    }
+
+    @Override
+    public void onClick(View v) {
+        //菜单栏的点击事件
+        switch (v.getId()){
+            case R.id.discoverMenu_ib_game:
+                //点击跳转
+                break;
+            case R.id.discoverMenu_ib_finishBook:
+                //点击跳转
+                break;
+            case R.id.discoverMenu_ib_ranking:
+                //点击跳转
+                break;
+            case R.id.discoverMenu_ib_shop:
+                //点击跳转
+                break;
+        }
+    }
+
+    private void setRecyclerHeader(){
+        ViewGroup view= (ViewGroup) LayoutInflater.from(mContext).inflate(R.layout.view_adv_header,null);
+        mBannerLayout = (BannerLayout)view.findViewById(R.id.banner);
+        //添加广告的地址
+        mBannerUrlItems = new ArrayList<>();
+
+        mBannerUrlItems.add("https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png");
+        mBannerUrlItems.add("https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png");
+        mBannerLayout.setViewUrls(mBannerUrlItems);
+        //添加到ListView中
+        mRecyclerView.addHeaderView(view);
+        initMenu(view);
+    }
+
+    //广告的点击地址
+    @Override
+    public void onItemClick(int i) {
+        //广告点击事件
+    }
+
+    /*初始化菜单的使用*/
+    private void initMenu(ViewGroup v){
+        mIBGame = (ImageButton)v.findViewById(R.id.discoverMenu_ib_game);
+        mIBFinishBook = (ImageButton)v.findViewById(R.id.discoverMenu_ib_finishBook);
+        mIBRanking = (ImageButton)v.findViewById(R.id.discoverMenu_ib_ranking);
+        mIBShop = (ImageButton)v.findViewById(R.id.discoverMenu_ib_shop);
+        mIBGame.setOnClickListener(this);
+        mIBFinishBook.setOnClickListener(this);
+        mIBRanking.setOnClickListener(this);
+        mIBShop.setOnClickListener(this);
+    }
+
+    /*加载数据*/
+    private void loadData(){
+        mApiSerivce.getArticleBriefs()
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Observer<ArticleBrief>() {
+                    @Override
+                    public void onCompleted() {
+                        //关闭刷新，刷新Adapter
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        //加载数据失败，提示
+                    }
+
+                    @Override
+                    public void onNext(ArticleBrief articleBrief) {
+                        //加载
+                    }
+                });
+    }
+
+    //用来测试Adapter的数据
+    private void testAdapter(){
+        //格式
+        mAdvAdapter = new AdvAdapter(mContext);
+        mRecyclerView.setAdapter(mAdvAdapter);
+    }
+}

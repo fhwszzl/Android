@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main_gray">
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/homePage_linear_title"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:background="@color/theme_blue"-->
+        <!--android:gravity="center_horizontal|center_vertical">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView"-->
+            <!--android:text="待 叙"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="21sp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+    <!--</LinearLayout>-->
+
+    <!--&lt;!&ndash;   TAB标签  &ndash;&gt;-->
+    <!--<LinearLayout-->
+        <!--android:id="@+id/homepage_tab_ll"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_below="@+id/homePage_linear_title"-->
+        <!--android:background="@color/white">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/homepage_tab_cjjl"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="常见接龙"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textColor="@color/theme_blue"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/homepage_tab_gsx"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="故事线"-->
+            <!--android:textSize="16sp"-->
+            <!--android:textColor="@color/theme_blue"/>-->
+    <!--</LinearLayout>-->
+
+    <!--&lt;!&ndash;   recyclerview显示区域   &ndash;&gt;-->
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/main_viewpager"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/homepage_tab_ll">-->
+
+    <!--</android.support.v4.view.ViewPager>-->
+
+
+    <com.lhh.ptrrv.library.PullToRefreshRecyclerView
+        android:id="@+id/recyclerView_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.lhh.ptrrv.library.PullToRefreshRecyclerView>
+
+    <!--  刷新、回顶部  -->
+    <com.maikefengchao.daixu.View.RefreshView
+        android:id="@+id/refreshView"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/bg_refresh_view"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="80dp"/>
+
+</RelativeLayout>

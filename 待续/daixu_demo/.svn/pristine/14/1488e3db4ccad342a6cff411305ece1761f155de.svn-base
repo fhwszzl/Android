@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\point_normal.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\src\\main\\res\\mipmap-xhdpi\\point_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\icon_keyboard_nor.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\src\\main\\res\\mipmap-xhdpi\\icon_keyboard_nor.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\icon_more_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\src\\main\\res\\mipmap-xhdpi\\icon_more_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\icon_chat_photo.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\src\\main\\res\\mipmap-xhdpi\\icon_chat_photo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\icon_more_nor.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\src\\main\\res\\mipmap-xhdpi\\icon_more_nor.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\point_selected.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\src\\main\\res\\mipmap-xhdpi\\point_selected.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\icon_face_normal.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\src\\main\\res\\mipmap-xhdpi\\icon_face_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\icon_keyboard_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\src\\main\\res\\mipmap-xhdpi\\icon_keyboard_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\icon_face_click.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\src\\main\\res\\mipmap-xhdpi\\icon_face_click.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\icon_chat_image.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\RelyBox\\src\\main\\res\\mipmap-xhdpi\\icon_chat_image.png"
+    }
+]

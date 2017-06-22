@@ -1,0 +1,22 @@
+-keep class com.maikefengchao.daixu.App {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.maikefengchao.daixu.UI.Activity.MainActivity { <init>(); }
+-keep class com.maikefengchao.daixu.UI.Activity.ArticleActivity { <init>(); }
+-keep class com.maikefengchao.daixu.UI.Activity.ChatActivity { <init>(); }
+-keep class com.maikefengchao.daixu.UI.Activity.WriteArticleActivity { <init>(); }
+-keep class com.maikefengchao.daixu.UI.Activity.ShowPictureActivity { <init>(); }
+-keep class com.chinark.apppickimagev3.ui.PhotoAlbumActivity { <init>(); }
+-keep class com.chinark.apppickimagev3.ui.PhotoWallActivity { <init>(); }
+-keep class com.chinark.apppickimagev3.ui.CropPictureActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
+-keep class com.android.tools.fd.** {
+    *;
+}
+-dontnote com.android.tools.fd.**,android.support.multidex.MultiDexExtractor

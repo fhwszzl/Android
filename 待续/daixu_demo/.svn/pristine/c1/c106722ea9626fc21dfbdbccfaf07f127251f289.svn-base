@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PhotoWall/PhotoWall.iml" filepath="$PROJECT_DIR$/PhotoWall/PhotoWall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RelyBox/RelyBox.iml" filepath="$PROJECT_DIR$/RelyBox/RelyBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TabTeamProject.iml" filepath="$PROJECT_DIR$/TabTeamProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TouchGallery/TouchGallery.iml" filepath="$PROJECT_DIR$/TouchGallery/TouchGallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/daixu/daixu.iml" filepath="$PROJECT_DIR$/daixu/daixu.iml" />
+    </modules>
+  </component>
+</project>

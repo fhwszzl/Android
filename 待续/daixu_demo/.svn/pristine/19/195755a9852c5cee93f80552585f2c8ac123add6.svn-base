@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/homePage_linear_title"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/darker_gray">
+    </LinearLayout>
+
+    <com.lhh.ptrrv.library.PullToRefreshRecyclerView
+        android:id="@+id/recyclerView_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.lhh.ptrrv.library.PullToRefreshRecyclerView>
+
+    <com.maikefengchao.daixu.View.RefreshView
+        android:id="@+id/refreshView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_refresh_view"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="80dp"/>
+</RelativeLayout>

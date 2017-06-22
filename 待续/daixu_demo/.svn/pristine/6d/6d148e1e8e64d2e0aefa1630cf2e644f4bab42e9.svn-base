@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyApplication\\AppImagePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\main.xml",
+        "source": "D:\\AndroidStudioProjects\\MyApplication\\AppImagePicker\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\PhotoWall\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\main.xml",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\PhotoWall\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
+    }
+]

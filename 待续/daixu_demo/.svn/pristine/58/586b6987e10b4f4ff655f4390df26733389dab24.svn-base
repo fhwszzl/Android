@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Activity.MainActivity">
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+
+    <RadioGroup
+        android:id="@+id/main_linear_bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_tools_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@android:color/darker_gray">
+        <RadioButton
+            style="@style/bottomMenu_radioButton"
+            android:id="@+id/bottomMenu_rb_homepage"
+            android:checked="true"
+            android:drawableTop="@drawable/icon_btn_homepage"/>
+        <RadioButton
+            style="@style/bottomMenu_radioButton"
+            android:id="@+id/bottomMenu_rb_discovery"
+            android:drawableTop="@drawable/icon_btn_homepage"
+            android:checked="false" />
+        <ImageButton
+            android:id="@+id/bottomMenu_btn_writeArticle"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="发表文章"
+            android:background="@mipmap/icon_write_article_selected"/>
+        <RadioButton
+            style="@style/bottomMenu_radioButton"
+            android:id="@+id/bottomMenu_rb_message"
+            android:drawableTop="@drawable/icon_btn_homepage"/>
+
+        <RadioButton
+            style="@style/bottomMenu_radioButton"
+            android:id="@+id/bottomMenu_rb_personalCenter"
+            android:drawableTop="@drawable/icon_btn_homepage"/>
+    </RadioGroup>
+</RelativeLayout>

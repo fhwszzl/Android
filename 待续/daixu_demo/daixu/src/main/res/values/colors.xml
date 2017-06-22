@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#f57257</color>
+    <color name="colorPrimary">#f46444</color>
+    <color name="navigationBarColor">#f46444</color>
+    <color name="color_top">#33333333</color>
+    <color name="colorPrimaryDarkTrans">#CCf57257</color>
+
+    <color name="custom_imoocstyle">#eb4f38</color>
+    <color name="imoocstyle">#CA0612</color>
+
+    <color name="test_spacing1">#9674FC</color>
+    <color name="test_spacing2">#179641</color>
+    <color name="test_spacing3">#B2DB4D</color>
+    <color name="test_spacing4">#50E746</color>
+
+    <color name="srl_blue_bright">#ff00ddff</color>
+    <color name="srl_green_light">#ff99cc00</color>
+    <color name="srl_orange_light">#ffffbb33</color>
+    <color name="srl_red_light">#ffff4444</color>
+
+    <!--  产品用色  -->
+    <!--  透明、半透明  -->
+    <color name="color_translucent">#e0000000</color>
+    <color name="color_transparent">#00000000</color>
+    <!--  主色调  -->
+    <color name="theme_blue">#5c717a</color>
+    <!--  背景灰色主色调  -->
+    <color name="bg_main_gray">#eeeeee</color>
+    <!--  灰色间隔 -->
+    <color name="divider_gray">#F4F3F3</color>
+    <!--  消息页箭头灰色 -->
+    <color name="next_gray">#AAAAAA</color>
+    <!--  字体颜色  -->
+    <!--  item标题黑  -->
+    <color name="item_title_black">#494949</color>
+
+
+</resources>

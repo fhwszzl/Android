@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/writeArticle_et_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="标题(必填)"
+        android:singleLine="true"
+        android:paddingLeft="2dp"
+        android:background="@drawable/bg_frame"/>
+    <com.rockerhieu.emojicon.EmojiconEditText
+        android:id="@+id/writeArticle_et_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:paddingLeft="2dp"
+        android:singleLine="false"
+        android:inputType="textMultiLine"
+        android:background="@color/white"
+        android:hint="内容" />
+    <com.maikefengchao.relybox.widget.WriteArticleKeyboard
+        android:id="@+id/writeArticle_box_tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

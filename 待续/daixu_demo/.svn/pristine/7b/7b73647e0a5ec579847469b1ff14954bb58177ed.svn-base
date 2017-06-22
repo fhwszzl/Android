@@ -1,0 +1,65 @@
+-injars 'D:\AndroidStudioProjects\TabTeamProject\daixu\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'D:\AndroidStudioProjects\TabTeamProject\daixu\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\AndroidSDK\build-tools\23.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration 'D:\AndroidStudioProjects\TabTeamProject\daixu\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.maikefengchao.daixu.App {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.maikefengchao.daixu.UI.Activity.MainActivity {
+    <init>();
+}
+
+-keep class com.maikefengchao.daixu.UI.Activity.ArticleActivity {
+    <init>();
+}
+
+-keep class com.maikefengchao.daixu.UI.Activity.ChatActivity {
+    <init>();
+}
+
+-keep class com.maikefengchao.daixu.UI.Activity.WriteArticleActivity {
+    <init>();
+}
+
+-keep class com.maikefengchao.daixu.UI.Activity.ShowPictureActivity {
+    <init>();
+}
+
+-keep class com.chinark.apppickimagev3.ui.PhotoAlbumActivity {
+    <init>();
+}
+
+-keep class com.chinark.apppickimagev3.ui.PhotoWallActivity {
+    <init>();
+}
+
+-keep class com.chinark.apppickimagev3.ui.CropPictureActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

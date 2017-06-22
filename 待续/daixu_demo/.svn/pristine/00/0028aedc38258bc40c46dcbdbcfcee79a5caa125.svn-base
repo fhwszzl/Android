@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\no_photo.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\TouchGallery\\unspecified\\res\\drawable-ldpi-v4\\no_photo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "D:\\AndroidStudioProjects\\TabTeamProject\\daixu\\build\\intermediates\\exploded-aar\\TabTeamProject\\TouchGallery\\unspecified\\res\\drawable-ldpi-v4\\ic_launcher.png"
+    }
+]
